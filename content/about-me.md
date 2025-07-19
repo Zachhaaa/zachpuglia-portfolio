@@ -5,10 +5,8 @@ tags = []
 menupath = 'Aboutme'
 +++
 
-<img src="/me.jpg" style="border-radius: 50%;">
+{{< imgtext >}}
 
-<div>
-<p>Hi, I am Zach Puglia, and I am currently at Auburn University majoring in mechanical engineering. I plan graduate with my degree in 2029. </p>
-<p>You can message me at <a href="mailto:zacharyjustis3@gmail.com">zacharyjustis3@gmail.com</a> 
-if you would like to get in touch.</p>
-</div>
+Hi, I am Zach Puglia, and I am currently at Auburn University majoring in mechanical engineering. I plan graduate with my degree in 2029. You can message me at [zacharyjustis3@gmail.com](mailto:zacharyjustis3@gmail.com) if you would like to get in touch.
+
+{{< imgtextend src="me.jpg" convert=true >}}
