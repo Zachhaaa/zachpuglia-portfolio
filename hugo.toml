@@ -1,0 +1,15 @@
+title = 'Zach Puglia'
+languageCode = 'en-us'
+baseURL = 'https://zachpuglia.com/'
+
+disableKinds = ['taxonomy', 'section', 'term' ]
+
+[markup]
+  [markup.highlight]
+    style="github-dark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+    minifyOutput = true

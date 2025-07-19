@@ -1,0 +1,11 @@
+{{ $src := index . "src" }}
+{{ $alt := index . "alt" }}
+{{ $full := index . "full" }}
+
+{{ if (index . "convert") }}
+{{ $image := resources.Get $src }}
+{{ $webp := images.Filter (images.Process "q75 webp") $image }}
+<img src="{{ $webp.RelPermalink }}" alt="{{ $alt }}" {{ if $full }}width="100%"{{ end }}> 
+{{ else }}
+<img src="{{ $src }}" alt="{{ $alt }}" {{ if $full }}width="100%"{{ end }}>
+{{ end }}

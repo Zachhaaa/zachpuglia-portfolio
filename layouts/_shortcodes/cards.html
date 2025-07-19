@@ -1,0 +1,20 @@
+<div id="cards">
+    {{ range sort (sort .Site.RegularPages "Date" "desc") "Weight" }}
+        {{ if ne .Params.menupath "Aboutme" }}
+        <a class="card" href="/{{ .File.ContentBaseName }}">
+            <div>
+                <h2>{{ .Title }}</h2>
+                {{ $src := printf "/%s/thumbnail.png" .File.ContentBaseName }}
+                {{ $alt := printf "Thumbnail for %s" .Title }}
+                {{ $args := dict "src" $src "alt" $alt "convert" true "full" false }}
+
+                {{ partial "img.html" $args }}
+                <p>Includes</p>
+                <ul>
+                    {{ range .Params.tags }}<li>{{ . }}</li>{{ end }}
+                </ul>
+            </div>
+        </a>
+        {{ end }}
+    {{ end }}
+</div>

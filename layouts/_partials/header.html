@@ -1,0 +1,13 @@
+<div id="header">
+    {{ if .IsHome }}
+    <h1>Zach's Portfolio</h1>
+    {{ else }}
+    <div id="left-header">
+        <a href="/"><img src="/Home.svg" alt="Home Icon" id="home-icon"></a>
+        <h1>{{ .Title }}</h1>
+    </div>
+    {{ end }}   
+    <div id="header-me">
+        {{ partial "aboutme.html" . }}
+    </div>
+</div>

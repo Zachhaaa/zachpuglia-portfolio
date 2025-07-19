@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if .IsHome }}
+        <title>Zach's Portfolio</title>
+    {{ else }}
+        <title>Zach - {{ .Title }}</title>
+    {{ end }}
+    {{ $style := resources.Get "theme.scss" | toCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ if eq .Title "About Me"}}
+        <style>
+            .about-me {
+                display: none;
+            }
+            main img {
+                border-radius: 50%; 
+                height: 500px;
+            }
+            #content {
+                display: flex; 
+                gap: 20px;
+            }
+        </style>
+    {{ end }}
+    {{ if .Params.math }}
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+    {{ end }}
+</head>
+<body>
+    {{ partial "navbar.html" . }}
+    <main>
+        {{ partial "header.html" . }}
+        <div id="content">
+            {{ block "main" . }}{{end}}
+        </div>
+    </main>
+    <script src="/navbar.js"></script>
+</body>
+</html>

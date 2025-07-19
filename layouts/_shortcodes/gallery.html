@@ -1,0 +1,6 @@
+<div class="gallery">
+    {{ range split (.Get 0) ", " }}
+        {{ $args := dict "src" . "convert" true "full" false }}
+        {{ partial "img.html" $args }}
+    {{ end }}
+</div>

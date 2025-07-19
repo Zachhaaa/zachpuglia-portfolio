@@ -1,0 +1,18 @@
+{{ $folder := index . 0 }} 
+{{ $firstFolder := index . 1 }}
+{{ range $k, $v := $folder }}
+
+    {{ if eq (printf "%T" $v) "string" }}
+    <a href="/{{ $v }}">{{ $k }}</a>
+    {{ else }}
+    <li>
+        <div class="dropdown">
+            <div><img class="dropicon" src="/Drop-Down.svg">{{ $k }}</div>
+            {{ if $firstFolder }}
+            <img src='/{{ replace $k " " "-" }}.svg'>
+            {{ end }}
+        </div>
+        <ul>{{ partial "navbarentity.html" (slice $v false) }}</ul>
+    </li>
+    {{ end }}
+{{ end }}

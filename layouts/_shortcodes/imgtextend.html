@@ -1,0 +1,10 @@
+</div>
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $convert := .Get "convert" }}
+
+{{ $args := dict "src" $src "alt" $alt "convert" $convert "full" false }}
+{{ partial "img.html" $args }}
+
+</div>

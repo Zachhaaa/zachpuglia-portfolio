@@ -1,0 +1,16 @@
+{{ $structure := dict }}
+{{ range sort (sort .Site.RegularPages "Date" "desc") "Weight" }} 
+    {{ if ne .Params.menupath "Aboutme" }}
+    {{ $structure = merge $structure (dict (split .Params.menupath "/") (dict .Title .File.BaseFileName)) }}
+    {{ end }}
+{{ end }}
+
+<ul id="navbar">
+    <div id="navdirs">
+        {{ partial "navbarentity.html" (slice $structure true) }}
+    </div>
+    <div id="bottom-menu">
+        <img id="menu-button" src="/Menu.svg">
+        {{ partial "aboutme.html" . }}
+    </div>
+</ul>
