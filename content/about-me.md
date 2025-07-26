@@ -7,6 +7,7 @@ menupath = 'Aboutme'
 
 {{< imgtext >}}
 
-Hi, I am Zach Puglia, and I am currently at Auburn University majoring in mechanical engineering. I plan graduate with my degree in 2029. You can message me at [zacharyjustis3@gmail.com](mailto:zacharyjustis3@gmail.com) if you would like to get in touch.
+Hi, I am Zach Puglia, and I am currently at Auburn University, majoring in mechanical engineering. I plan to graduate with my degree in 2029. You can message me at [zacharyjustis3@gmail.com](mailto:zacharyjustis3@gmail.com) if you would like to get in touch.
+
 
 {{< imgtextend src="me.jpg" convert=true >}}

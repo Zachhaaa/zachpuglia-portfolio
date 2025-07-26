@@ -38,14 +38,14 @@ The arms are separated into 2 parts since my 3D printer can only handle parts th
 
 # Electronics 
 {{< imgtext >}}
-All of the electronics except for the motors are housed in the center between the battery and the bottom frame.
+All of the electronics, except for the motors, are housed in the center between the battery and the bottom frame.
 {{< imgtextend src="quadcopter/IMG_3568.jpg" alt="Electronics" convert=true >}}
 
 {{< divider >}}
 
 # Tuning 
 {{< imgtext >}}
-In order for the drone to stay level in the air, I have to tune the PID controller which drives the motors when the gyro sensor reports an angle different from the desired angle.
+In order for the drone to stay level in the air, I have to tune the PID controller, which drives the motors when the gyro sensor reports an angle different from the desired angle.
 {{< imgtextend src="quadcopter/configurator.webp" alt="Configurator" convert=true >}}
 
 # Result
@@ -60,6 +60,6 @@ In order for the drone to stay level in the air, I have to tune the PID controll
 
 # Crashed parts 
 
-In total, I crashed the quadcopter 3 times. Using a 3d printed frame certainly didn't help for strength. So... stuff like this happens when it crashes. 
+In total, I crashed the quadcopter 3 times. Using a 3d printed frame certainly didn't help with strength. So... stuff like this happens when it crashes. 
 
 {{< img src="quadcopter/IMG_3569.jpg" convert=true  >}}

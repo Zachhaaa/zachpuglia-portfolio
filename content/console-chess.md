@@ -10,13 +10,13 @@ weight = 100
 
 # The Code
 
-Written in C, you can find the code on github [here](https://github.com/Zachhaaa/console_chess).
+Written in C, you can find the code on Github [here](https://github.com/Zachhaaa/console_chess).
 
 # Code design
 
-Like all apps we start at the entry point. In C this is the main function.
+All apps start at the entry point. In C, this is the main function.
 
-First, we run the startup code which includes writing the user directions and board to the console.
+First, the startup code executed, which includes writing the user directions and board to the console.
 
 After that, the board enters the main loop, and it:
 
@@ -56,12 +56,12 @@ Summarizing, getUserInput()
  2. Gets the input and limits the size, so you don't get what is called a buffer overflow
  3. Formats the string so it doesn't call "invalid input" if you add an extra space or accidentally capitalize one letter
  4. Processes the input and saves the coordinates (more checks are done later in the code).
- 5. Returns the object which includes data about:
-     -  The result of the input (either quit, invalid input, or successful input)
-     -  Position of the piece to be moved
-     -  Desired end point of the piece being moved
+ 5. Returns the object that includes data about:
+     - The result of the input (either quit, invalid input, or successful input)
+     - Position of the piece to be moved
+     - Desired end point of the piece being moved
 
-One thing you might notice is it didn't check whether the move was legal. What if we wanted to move a pawn 3 spaces forward?
+One thing you might notice is that it didn't check whether the move was legal. What if the user wanted to move a pawn 3 spaces forward?
 
 Further checks are done in the movePiece function to make sure the user made a valid move.
 
@@ -114,10 +114,10 @@ Check out the [Github page](https://github.com/Zachhaaa/console_chess) for this 
 
 # What I liked about it
 
-I liked managing the code by creating global variables and functions that act upon those variables to control the game. I personally think that it is much simpler and easier to understand compared to object oriented models that you may find used in other languages.
+I liked managing the code by creating global variables and functions that act upon those variables to control the game. I think that it is much simpler and easier to understand compared to object-oriented models that you may find used in other languages.
 
 {{< divider >}}
 
 # What I would do different
 
-I would focus more on sectioning off parts of code to keep the jobs specific and clear. While I did do this by creating functions that each have their own purpose, I sometimes broke this rule. For example, I checked the validity of the input in both the getUserInput() and movePiece() functions. It would be better off to put that functionality into a separate function, group it together, and put it in the getUserInput() function.
+I would focus more on sectioning off parts of code to keep the job specific and clear. While I did do this by creating functions that each have their purpose, I sometimes broke this rule. For example, I checked the validity of the input in both the getUserInput() and movePiece() functions. It would be better off to put that functionality into a separate function, group it together, and put it in the getUserInput() function.

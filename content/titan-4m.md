@@ -18,7 +18,7 @@ This was my first CAM and CNC machining project. I followed a tutorial using thi
 
 {{< imgtext >}}
 
-The part has no practical purpose. However, it is a great part to learn CAM due to features that require different tools and machining strategies.
+The part has no practical purpose. However, it is a great part to learn CAM due to the features that require different tools and machining strategies.
 
 {{< imgtextend src="titan-4m/cad.webp" convert=true >}}
 
@@ -27,7 +27,7 @@ The part has no practical purpose. However, it is a great part to learn CAM due 
 # CAM 
 
 
-Is composed of two setups and uses the following tools
+It is composed of two setups and uses the following tools
 
  - Face mill
  - 3/8" End mill

@@ -20,7 +20,7 @@ This is an aluminum plate machined out of aluminum for the shooter of our offsea
 
 # CAD
 
-The plates were designed in Fusion. At first glance the sides look the same, but they are different. 
+The plates were designed in Fusion. At first glance, the sides look the same, but they are different. 
 
 {{< gallery "ring-shooter/LeftCAD.webp, ring-shooter/RightCAD.webp" >}}
 

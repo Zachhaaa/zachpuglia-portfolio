@@ -10,7 +10,7 @@ weight = 120
 
 # Why?
 
-The most common hotend design is the V6 hotend and many hotends are built using that same shape and mounting.
+The most common hotend design is the V6 hotend, and many hotends are built using that same shape and mounting.
 
 My printer doesn't support V6 hotends normally, so I made my own adapter.
 
@@ -27,9 +27,9 @@ This included:
  - The X-carriage that holds the bearings and moves on the X-axis
  - The fan
  - The hotend
- - The position of the previous hotend, so the nozzle position does not change
+ - The position of the previous hotend, so the nozzle position does not change.
 
-The hotend is held in using 2 screws that sandwich the top of the hotend.
+The hotend is held in place using 2 screws that sandwich the top of the hotend.
 
 The fan blows on the hotend to prevent heat creep.
 
@@ -47,4 +47,4 @@ The design went through 5 iterations.
 
 # My Thoughts 
 
-This is definitely one of my more successful designs. There is nothing about the design that I think needs to be revised, and it has worked perfectly so far.
+This is one of my more successful designs. There is nothing about the design that I think needs to be revised, and it has worked perfectly so far.

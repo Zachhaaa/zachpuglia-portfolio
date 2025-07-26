@@ -16,7 +16,7 @@ Our 2024 Crescendo robot
 
 {{< imgtext >}}
 
-This year, you score points by shooting foam donut shaped pieces called "notes" into a variety of targets.
+This year, you score points by shooting foam donut-shaped pieces called "notes" into a variety of targets.
 
 You can check out the details in this [video](https://www.youtube.com/watch?v=9keeDyFxzY4).
 
@@ -40,7 +40,7 @@ Prototypes were made using a laser cutter to speed up prototyping.
 
 {{< imgtext >}}
 
-We needed to figure out how all of the components fit together and how to keep all of the subsystems in sync mechanically.
+Our team needed to figure out how all of the components fit together and how to keep all of the subsystems in sync mechanically.
 
 We started with a drive base and slowly started configuring the rest of the robot on top of that.
 
@@ -60,7 +60,7 @@ We started with a drive base and slowly started configuring the rest of the robo
 
 We competed at 3 competitions in California and made the playoffs in all 3.
 
-Our design won best design at our third competition.
+Our robot won the best design award at our third competition.
 
 {{< imgtextend src="first-2024/pickingup.webp" convert=true >}}
 

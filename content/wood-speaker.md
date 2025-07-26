@@ -28,7 +28,7 @@ I used an octahedral design because I thought it looked better. It also allows m
 
 ## Math
 
-In order to calculate the side lengths of the octagon, I used these formulas I derived using basic trig and geometry concepts. The shape is a regular octagon with the top and bottom sides extended.
+In order to calculate the side lengths of the octagon, I used these formulas, which I derived using basic trig and geometry concepts. The shape is a regular octagon with the top and bottom sides extended.
 
 <p>
 \[S_{1} = {2a \tan \frac{1}{2} \theta}\]
@@ -68,8 +68,8 @@ with units in inches except for angles.
  2. Calculate the side lengths using trigonometry and the formulas above
  3. Cut 5"x0.75" wood vertically on the miter saw
  4. Use the table saw to make rabbet cuts for the front and back plates of the speaker to slot in
- 5. Use the miter saw to make 22.5 degree cuts so the boards glue together to form the octagon
- 6. Glue the sides together and hold it together with tape while drying
+ 5. Use the miter saw to make 22.5-degree cuts so the boards glue together to form the octagon
+ 6. Glue the sides together and hold them together with tape while drying
  7. Cut out the front and back plates on the miter saw
  8. Drill the holes for the speaker, tweeter, and port on the back using hole saws of the correct size
  9. Chamfer the woofer holes with a router
@@ -78,7 +78,7 @@ with units in inches except for angles.
  12. Apply a beeswax finish to the wood for aesthetics and to protect the wood
  13. Solder all of the components together
  14. Screw in woofers with felt covering
- 15. Screw in tweeter
+ 15. Screw in the tweeter
  16. Solder all of the electronics together according to the schematic
  17. Add foam to improve sound quality
  18. Glue down the amp
@@ -97,4 +97,4 @@ with units in inches except for angles.
 
 Overall, I am very happy with the outcome of my speaker. However, it didn't go perfectly. You can see some inaccuracies. For example, the slots on the top and bottom wood pieces are from cutting the pieces incorrectly on the table saw.
 
-The sound quality was also good too. It wasn't better than a good quality speaker, but it sounded better than some cheap knockoff brand speakers.
+The sound quality was also good. It wasn't better than a good quality speaker, but it sounded better than some cheap knockoff brand speakers.

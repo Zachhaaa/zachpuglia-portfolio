@@ -20,19 +20,19 @@ I use this to hold my phone still while taking photos or videos.
 
 CAD from Fusion 
 
-There are many things that went into this design to make it 3D printable.
+Several factors contributed to making this design 3D printable.
 
 ## The Clamp
 
 {{< imgtext >}}
 
-The clamp consists of 3 parts
+The clamp consists of 3 parts.
 
  1. Clamp main section
  2. Threaded section
  3. Screw
 
-The reason the clamp is split into the threaded section is so I can print the thread vertically, running the layer lines across rather than vertically (increasing the strength of the clamp), and remove the need for supports.
+The reason the clamp is split into a threaded section is so that I can print the thread vertically, running the layer lines across rather than vertically (increasing the strength of the clamp) and removing the need for supports.
 
 This then attaches to the base of the arm using screws.
 
@@ -70,7 +70,7 @@ The big problem is that the screw has to spin within this part. It might be poss
 
 # Thoughts 
 
-Overall it works and for a 3D printed camera arm, it works really well, and it has proven to be extremely helpful when it comes to designing this website. The biggest annoyance is whenever it is bumped, it takes a long time for the shaking of the arm to go away.
+Overall, it works, and for a 3D printed camera arm, it works well, and it has proven to be extremely helpful when it comes to designing this website. The biggest annoyance is that whenever it is bumped, it takes a long time for the shaking of the arm to go away.
 
 {{< divider >}}
 

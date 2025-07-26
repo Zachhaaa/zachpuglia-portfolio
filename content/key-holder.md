@@ -16,7 +16,7 @@ I got inspiration for the design from what other people have made online.
 
  - Keys rotate out
  - The entire holder acts as a handle to turn the keys when in the lock
- - Can hold as many keys as your want if you change the size of the screws
+ - It can hold as many keys as you want if you change the size of the screws
 
 {{< imgtextend src="key-holder/cad.webp" convert=true >}}
 
@@ -26,6 +26,6 @@ I got inspiration for the design from what other people have made online.
  1. Doesn't make noise when being moved around.
  2. I can find which key I need easily since they don't change their position.
  3. Slimmer than having them on a keychain.
- 4. Prevents your phone from being scratched if your have them in the same pocket.
+ 4. Prevents your phone from being scratched if you have it in the same pocket.
 
 {{< gallery "key-holder/orange.webp, key-holder/opaque-cad.webp" >}}

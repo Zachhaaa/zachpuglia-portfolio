@@ -8,7 +8,7 @@ weight = 40
 
 {{< img src="opengl-playground/thumbnail.png" convert=true >}}
 
-This is not really a project, but more of a place where I can learn OpenGL and improve my skills.
+This is not a project, but more of a place where I can learn OpenGL and improve my skills.
 
 The thumbnail above is the current state of the project.
 
@@ -27,7 +27,7 @@ file is already 400 lines of code! 400 lines of code just to boot a simple windo
 
 This is because I am coding most of this from scratch, including the [lighting algorithm](https://learnopengl.com/Lighting/Basic-Lighting).
 
-You can find the Github page [here](https://github.com/Zachhaaa/OpenGL-Playground).
+You can find the GitHub page [here](https://github.com/Zachhaaa/OpenGL-Playground).
 
 {{< divider >}}
 
@@ -41,10 +41,10 @@ You can find the Github page [here](https://github.com/Zachhaaa/OpenGL-Playgroun
 
 {{< imgtextend src="opengl.svg" alt="OpenGL Logo" >}}
 
-# Whats is OpenGL? 
+# What is OpenGL? 
 
-Overall, OpenGL allows developers to use to the power of the GPU to render an image on the screen.
+Overall, OpenGL allows developers to use the power of the GPU to render an image on the screen.
 
-If you have ever installed GPU drivers, you are installing the function definitions for this library (along with other stuff of course).
+If you have ever installed GPU drivers, you are installing the function definitions for this library (along with other stuff, of course).
 
 {{< img src="opengl-playground/menu.png" convert=true >}}
