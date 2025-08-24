@@ -1,7 +1,7 @@
 +++
 date = '2025-07-08T16:27:07-07:00'
 title = 'Ring Shooter'
-tags = ['Software', 'C++', 'Graphics Programming', 'OpenGL', 'UI design']
+tags = ['CAD', 'CAM', 'Fusion', 'CNC Machining']
 menupath = 'Advanced Manufacturing/CNC Machining'
 weight = 30
 +++
